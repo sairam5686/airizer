@@ -2,7 +2,7 @@
 > **Transform Lengthy Articles into Clear, Concise Summaries!**  
 > Your online solution for effortless content simplification, powered by ChatGPT.
 
-![Airizer Logo]([https://placeholder.com/logo.png](https://jade-capybara-7d1e88.netlify.app/assets/image-B6EErm5d.png)) <!-- Replace with your logo URL -->
+![Airizer Logo](https://jade-capybara-7d1e88.netlify.app/assets/image-B6EErm5d.png) <!-- Replace with your logo URL -->
 
 ---
 
