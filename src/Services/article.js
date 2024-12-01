@@ -10,7 +10,7 @@ export const articleapi = createApi({
         baseUrl: 'https://article-extractor-and-summarizer.p.rapidapi.com',
         //prepare an header function
         prepareHeaders: (headers)=>{
-            headers.set('x-rapidapi-key',"c8538c4e42msh279dbf283fba515p1a7fbcjsn492e030be219"),
+            headers.set('x-rapidapi-key',"ENTER_YOUR_API_KEY"),
             headers.set('x-rapidapi-host','article-extractor-and-summarizer.p.rapidapi.com');
            
             return headers;
