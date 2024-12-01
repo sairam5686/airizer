@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,html{ 
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav{
+height: 8vh;
+/* background-color: violet; */
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+.hero-main-container{
+    margin-top: 15px;
+    padding: 50px;
+    height: 90vh;
+    width: 100%;
+    /* background-color: black; */
+    background: rgba(0, 0, 0, 0.162) url("./assets/llline.svg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size:90%;
+    color: #f3f3f4;
+    font-size: 7vh;
+    text-align: center;
+    line-height: 60px;
+   
+    
+}
+
+.norm-h1{
+    margin-top:10%;
+    text-wrap: balance;
+    line-height: 100px;
+      font-size: 15vh;
+      text-align: center;
+      color: #f3f3f4;
+
+}
+
+.desc{
+    font-size:25px;
+    margin-top: 50px;
+    color: #f3f3f4a3;
+    text-wrap: balance;
+}
+
+.demo-main{
+  margin-top: 20%;
+}
+
+.demo-parent-container{
+    padding: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+
+.font-start{
+  color: #4B0082; 
+  background-image: linear-gradient(45deg, #b876e7 42%, #5effbc 99%, #64efa7 62%, #3cf07e 71%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+    font-size: 15vh;
+    text-align: center;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-color: rgb(253, 221, 86);
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #000;
+    transition: 0.3s ease;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  
+.input::placeholder {
+    color: #9e9ea7;
+  }
+  
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: rgba(247, 127, 0, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(247 127 0 / 10%);
+  }
+
+.btn-sub{
+    margin-top: 18px;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid rgb(253, 221, 86);
+    border-radius: 1em;
+    height: 50px;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px rgb(253, 221, 86);
+  }
+  
+.btn-sub:hover {
+    transform: translate(5px, -5px);
+  }
+
+.art_font{
+  color: #4B0082; 
+  background-image: linear-gradient(45deg, #b876e7 42%, #5effbc 99%, #64efa7 62%, #3cf07e 71%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+ }
+
+.result_display_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aritcelsum{
+  text-align: center;
+}
+
+.result_block{
+  padding: 10%;
+  overflow-y: scroll;
+  margin-top: 20px;
+  text-wrap: balance;
+  height: 45vh;
+  width: 60%;
+  border: 3px solid;
+  border-image: linear-gradient(45deg, purple, orange) 1;
+  padding: 1rem;
+
+}
+
+.result-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: #f3f3f4;
+}
+
+.input-box-btn{
+  display: flex;
+  color: #f3f3f4;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-font-airizer{
+  color: #837eff; 
+  background-image: linear-gradient(90deg, #56b0fb 42%, #aeff6c 99%, #64efa7 62%, #b8ff45 71%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
